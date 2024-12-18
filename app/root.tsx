@@ -59,7 +59,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           content="/IMG/Favicon/browserconfig.xml"
         />
         <meta name="theme-color" content={Theme.palette.primary.main} />
-        <title>Rèm Tuấn Kiệt</title>
+        <title>DKKP</title>
         <Meta />
         <Links />
       </head>
