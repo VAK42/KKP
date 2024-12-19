@@ -10,13 +10,6 @@ import { CssBaseline } from "@mui/material";
 import React from "react";
 import Tailwind from "./tailwind.css?url";
 import FontAwesome from "./FontAwesome/css/all.css?url";
-import Stylesheet from "./RTK.css?url";
-import AppleTouchIcon from "./IMG/Favicon/Apple.png";
-import Favicon32 from "./IMG/Favicon/Favicon_32.png";
-import Favicon16 from "./IMG/Favicon/Favicon_16.png";
-import Favicon from "./IMG/Favicon/Favicon.ico";
-import Safari from "./IMG/Favicon/Safari.svg";
-import Manifest from "./IMG/Favicon/site.webmanifest";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Theme } from "./components/Theme";
@@ -24,13 +17,6 @@ import { Theme } from "./components/Theme";
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: Tailwind },
   { rel: "stylesheet", href: FontAwesome },
-  { rel: "stylesheet", href: Stylesheet },
-  { rel: "apple-touch-icon", sizes: "180x180", href: AppleTouchIcon },
-  { rel: "manifest", href: Manifest },
-  { rel: "icon", type: "image/png", sizes: "32x32", href: Favicon32 },
-  { rel: "icon", type: "image/png", sizes: "16x16", href: Favicon16 },
-  { rel: "shortcut icon", href: Favicon },
-  { rel: "mask-icon", href: Safari, color: "#fff" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
